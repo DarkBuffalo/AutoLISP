@@ -7,7 +7,7 @@
   (setq x(/ (- (car p2) (car p1)) 2.00))
   (setq y(/ (- (cadr p2) (cadr p1)) 2.00))
   (setq midpoint(list  (+ (car p1) x) (+ (cadr p1) y)))
-  (command "line" p3 midpoint "")
+  (command "l" p3 midpoint "")
 )
 
 ;; Draw a straight line from the mid point of a straight line
@@ -19,7 +19,7 @@
   (setq x(/ (- (car p2) (car p1)) 3.00))
   (setq y(/ (- (cadr p2) (cadr p1)) 3.00))
   (setq thirdpoint(list  (+ (car p1) x) (+ (cadr p1) y)))
-  (command "line" p3 thirdpoint "")
+  (command "l" p3 thirdpoint "")
 )
 
 ;; Draw a straight line from the point at the golden section of a straight line
@@ -31,5 +31,5 @@
   (setq x(* (- (car p2) (car p1)) 0.618))
   (setq y(* (- (cadr p2) (cadr p1)) 0.618))
   (setq goldenpoint(list  (+ (car p1) x) (+ (cadr p1) y)))
-  (command "line" p3 goldenpoint "")
+  (command "l" p3 goldenpoint "")
 )
