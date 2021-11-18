@@ -2,7 +2,10 @@
 My own autolisp routines, with some commands and routines for luthiery specific drawing tasks
 
 ## startup.lsp
-My CorelCAD startup file, to automatically load my customizations
+My CorelCAD startup file, to automatically load my customizations.
+The program searches the support file search path for a startup.lsp file. If the file is found, it is loaded into memory.
+The folder:
+%APPDATA%\CorelCAD x64\21.2.3515\Support
 
 ## divisions.lsp
 It allow to construct new lines from the division between two defined points
