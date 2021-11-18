@@ -1,4 +1,4 @@
-# AutoLISP-Files
+# AutoLISP routines for CorelCad
 My own autolisp routines, with some commands and routines for luthiery specific drawing tasks
 
 ## startup.lsp
