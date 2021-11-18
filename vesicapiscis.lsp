@@ -53,6 +53,6 @@
   (setq vpc2 (list (+ (car vpq2) x2) (+ (cadr vpq2) y2)))
   
   ; draw the vesica
-  (command "circle" vpc1 vpq1)  
-  (command "circle" vpc2 vpq2)  
+  (command "c" vpc1 vpq1)  
+  (command "c" vpc2 vpq2)  
 )
