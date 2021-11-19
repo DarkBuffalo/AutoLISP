@@ -1,7 +1,7 @@
 # AutoLISP routines for CorelCad
 My own autolisp routines, with some commands and routines for luthiery specific drawing tasks
 
-## startup.lsp
+## start.lsp
 My CorelCAD startup file, to automatically load my customizations.
 The program searches the support file search path for a startup.lsp file. If the file is found, it is loaded into memory.
 
