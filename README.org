@@ -1,6 +1,6 @@
 #+title: AutoLISP routines for CorelCad
 
-* start.lsp
+* Start.lsp
 My CorelCAD startup file, to automatically load my customizations.
 The program searches the support file search path for a start.lsp file. If the file is found, it is loaded into memory.
 
