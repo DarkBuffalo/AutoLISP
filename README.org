@@ -1,0 +1,22 @@
+#+title: AutoLISP routines for CorelCad
+
+* start.lsp
+My CorelCAD startup file, to automatically load my customizations.
+The program searches the support file search path for a start.lsp file. If the file is found, it is loaded into memory.
+
+The folder:
+%APPDATA%\CorelCAD x64\21.2.3515\Support
+
+* divisions.lsp
+It allow to construct new lines from the division between two defined points
+
+** Line From Mid Point
+- linefrommidpoint :: Ask to define two points; a mid point is calculated, and a line start to be drawn from there. The new line finish when defining the third and last point.
+- linefromthirdpoint :: Ask to define two points; the point at one third their distances is calculated, and a line start to be drawn from there. The new line finish when defining the third and last point.
+- linefromgoldensection :: Ask to define two points; then, a point at the golden section from them is calculated, and a line start to be drawn from there. The new line finish when defining the third and last point.
+
+* vesicapiscis.lsp
+It construct a Vesica Piscis from two defined points
+
+- vesicastartend :: Ask to define both opposite extreme points, then draw the Vesica.
+- vesicacenterend :: Ask to define the center and one of the opposite extreme points, then draw the Vesica.
